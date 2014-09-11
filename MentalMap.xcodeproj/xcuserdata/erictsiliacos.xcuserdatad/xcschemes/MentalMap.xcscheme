@@ -32,8 +32,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6E90015919C1734C00ABC549"
-               BuildableName = "MentalMapTests.xctest"
+               BlueprintIdentifier = "6ED9BD4119C176F800FDBBA4"
+               BuildableName = "MentalMapTests.app"
                BlueprintName = "MentalMapTests"
                ReferencedContainer = "container:MentalMap.xcodeproj">
             </BuildableReference>

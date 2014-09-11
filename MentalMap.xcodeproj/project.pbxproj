@@ -14,22 +14,15 @@
 		6E90014F19C1734C00ABC549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E90014E19C1734C00ABC549 /* main.m */; };
 		6E90015319C1734C00ABC549 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E90015219C1734C00ABC549 /* AppDelegate.m */; };
 		6E90015519C1734C00ABC549 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E90015419C1734C00ABC549 /* Images.xcassets */; };
-		6E90015C19C1734C00ABC549 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E90015B19C1734C00ABC549 /* XCTest.framework */; };
-		6E90015D19C1734C00ABC549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E90014219C1734C00ABC549 /* Foundation.framework */; };
-		6E90015E19C1734C00ABC549 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E90014619C1734C00ABC549 /* UIKit.framework */; };
-		6E90016619C1734C00ABC549 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E90016419C1734C00ABC549 /* InfoPlist.strings */; };
-		6E90016819C1734C00ABC549 /* MentalMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E90016719C1734C00ABC549 /* MentalMapTests.m */; };
+		6ED9BD4319C176F800FDBBA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E90014619C1734C00ABC549 /* UIKit.framework */; };
+		6ED9BD4419C176F800FDBBA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E90014219C1734C00ABC549 /* Foundation.framework */; };
+		6ED9BD4519C176F800FDBBA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E90014419C1734C00ABC549 /* CoreGraphics.framework */; };
+		6ED9BD4B19C176F800FDBBA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9BD4919C176F800FDBBA4 /* InfoPlist.strings */; };
+		6ED9BD4D19C176F800FDBBA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9BD4C19C176F800FDBBA4 /* main.m */; };
+		6ED9BD5119C176F800FDBBA4 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED9BD5019C176F800FDBBA4 /* Cedar-iOS.framework */; };
+		6ED9BD5319C176F800FDBBA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9BD5219C176F800FDBBA4 /* Default-568h@2x.png */; };
+		6ED9BD5519C176F800FDBBA4 /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9BD5419C176F800FDBBA4 /* ExampleSpec.mm */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6E90015F19C1734C00ABC549 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E90013719C1734B00ABC549 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6E90013E19C1734C00ABC549;
-			remoteInfo = MentalMap;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6E90013F19C1734C00ABC549 /* MentalMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +36,18 @@
 		6E90015119C1734C00ABC549 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E90015219C1734C00ABC549 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6E90015419C1734C00ABC549 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6E90015A19C1734C00ABC549 /* MentalMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E90015B19C1734C00ABC549 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6E90016319C1734C00ABC549 /* MentalMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MentalMapTests-Info.plist"; sourceTree = "<group>"; };
-		6E90016519C1734C00ABC549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6E90016719C1734C00ABC549 /* MentalMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MentalMapTests.m; sourceTree = "<group>"; };
+		6ED9BD4219C176F800FDBBA4 /* MentalMapTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalMapTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED9BD4819C176F800FDBBA4 /* MentalMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MentalMapTests-Info.plist"; sourceTree = "<group>"; };
+		6ED9BD4A19C176F800FDBBA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ED9BD4C19C176F800FDBBA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ED9BD4E19C176F800FDBBA4 /* MentalMapTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MentalMapTests-Prefix.pch"; sourceTree = "<group>"; };
+		6ED9BD4F19C176F800FDBBA4 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		6ED9BD5019C176F800FDBBA4 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		6ED9BD5219C176F800FDBBA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6ED9BD5419C176F800FDBBA4 /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
+		D628A921880F4D3294403D49 /* libPods-MentalMapTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MentalMapTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52CAF170C83410488A10820 /* Pods-MentalMapTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalMapTests.xcconfig"; path = "Pods/Pods-MentalMapTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +61,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E90015719C1734C00ABC549 /* Frameworks */ = {
+		6ED9BD3F19C176F800FDBBA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E90015C19C1734C00ABC549 /* XCTest.framework in Frameworks */,
-				6E90015E19C1734C00ABC549 /* UIKit.framework in Frameworks */,
-				6E90015D19C1734C00ABC549 /* Foundation.framework in Frameworks */,
+				6ED9BD4519C176F800FDBBA4 /* CoreGraphics.framework in Frameworks */,
+				6ED9BD4319C176F800FDBBA4 /* UIKit.framework in Frameworks */,
+				6ED9BD5119C176F800FDBBA4 /* Cedar-iOS.framework in Frameworks */,
+				6ED9BD4419C176F800FDBBA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +79,10 @@
 			isa = PBXGroup;
 			children = (
 				6E90014819C1734C00ABC549 /* MentalMap */,
-				6E90016119C1734C00ABC549 /* MentalMapTests */,
+				6ED9BD4619C176F800FDBBA4 /* MentalMapTests */,
 				6E90014119C1734C00ABC549 /* Frameworks */,
 				6E90014019C1734C00ABC549 /* Products */,
+				E52CAF170C83410488A10820 /* Pods-MentalMapTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				6E90013F19C1734C00ABC549 /* MentalMap.app */,
-				6E90015A19C1734C00ABC549 /* MentalMapTests.xctest */,
+				6ED9BD4219C176F800FDBBA4 /* MentalMapTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +102,7 @@
 				6E90014419C1734C00ABC549 /* CoreGraphics.framework */,
 				6E90014619C1734C00ABC549 /* UIKit.framework */,
 				6E90015B19C1734C00ABC549 /* XCTest.framework */,
+				D628A921880F4D3294403D49 /* libPods-MentalMapTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,20 +129,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6E90016119C1734C00ABC549 /* MentalMapTests */ = {
+		6ED9BD4619C176F800FDBBA4 /* MentalMapTests */ = {
 			isa = PBXGroup;
 			children = (
-				6E90016719C1734C00ABC549 /* MentalMapTests.m */,
-				6E90016219C1734C00ABC549 /* Supporting Files */,
+				6ED9BD4F19C176F800FDBBA4 /* Rakefile */,
+				6ED9BD5019C176F800FDBBA4 /* Cedar-iOS.framework */,
+				6ED9BD5219C176F800FDBBA4 /* Default-568h@2x.png */,
+				6ED9BD5419C176F800FDBBA4 /* ExampleSpec.mm */,
+				6ED9BD4719C176F800FDBBA4 /* Supporting Files */,
 			);
 			path = MentalMapTests;
 			sourceTree = "<group>";
 		};
-		6E90016219C1734C00ABC549 /* Supporting Files */ = {
+		6ED9BD4719C176F800FDBBA4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E90016319C1734C00ABC549 /* MentalMapTests-Info.plist */,
-				6E90016419C1734C00ABC549 /* InfoPlist.strings */,
+				6ED9BD4819C176F800FDBBA4 /* MentalMapTests-Info.plist */,
+				6ED9BD4919C176F800FDBBA4 /* InfoPlist.strings */,
+				6ED9BD4C19C176F800FDBBA4 /* main.m */,
+				6ED9BD4E19C176F800FDBBA4 /* MentalMapTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,23 +172,22 @@
 			productReference = 6E90013F19C1734C00ABC549 /* MentalMap.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E90015919C1734C00ABC549 /* MentalMapTests */ = {
+		6ED9BD4119C176F800FDBBA4 /* MentalMapTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E90016E19C1734C00ABC549 /* Build configuration list for PBXNativeTarget "MentalMapTests" */;
+			buildConfigurationList = 6ED9BD5619C176F800FDBBA4 /* Build configuration list for PBXNativeTarget "MentalMapTests" */;
 			buildPhases = (
-				6E90015619C1734C00ABC549 /* Sources */,
-				6E90015719C1734C00ABC549 /* Frameworks */,
-				6E90015819C1734C00ABC549 /* Resources */,
+				6ED9BD3E19C176F800FDBBA4 /* Sources */,
+				6ED9BD3F19C176F800FDBBA4 /* Frameworks */,
+				6ED9BD4019C176F800FDBBA4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6E90016019C1734C00ABC549 /* PBXTargetDependency */,
 			);
 			name = MentalMapTests;
 			productName = MentalMapTests;
-			productReference = 6E90015A19C1734C00ABC549 /* MentalMapTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = 6ED9BD4219C176F800FDBBA4 /* MentalMapTests.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -190,11 +197,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = eric;
-				TargetAttributes = {
-					6E90015919C1734C00ABC549 = {
-						TestTargetID = 6E90013E19C1734C00ABC549;
-					};
-				};
 			};
 			buildConfigurationList = 6E90013A19C1734B00ABC549 /* Build configuration list for PBXProject "MentalMap" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -209,7 +211,7 @@
 			projectRoot = "";
 			targets = (
 				6E90013E19C1734C00ABC549 /* MentalMap */,
-				6E90015919C1734C00ABC549 /* MentalMapTests */,
+				6ED9BD4119C176F800FDBBA4 /* MentalMapTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,11 +226,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E90015819C1734C00ABC549 /* Resources */ = {
+		6ED9BD4019C176F800FDBBA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E90016619C1734C00ABC549 /* InfoPlist.strings in Resources */,
+				6ED9BD4B19C176F800FDBBA4 /* InfoPlist.strings in Resources */,
+				6ED9BD5319C176F800FDBBA4 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,23 +247,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E90015619C1734C00ABC549 /* Sources */ = {
+		6ED9BD3E19C176F800FDBBA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E90016819C1734C00ABC549 /* MentalMapTests.m in Sources */,
+				6ED9BD4D19C176F800FDBBA4 /* main.m in Sources */,
+				6ED9BD5519C176F800FDBBA4 /* ExampleSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6E90016019C1734C00ABC549 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6E90013E19C1734C00ABC549 /* MentalMap */;
-			targetProxy = 6E90015F19C1734C00ABC549 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6E90014B19C1734C00ABC549 /* InfoPlist.strings */ = {
@@ -271,10 +267,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6E90016419C1734C00ABC549 /* InfoPlist.strings */ = {
+		6ED9BD4919C176F800FDBBA4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6E90016519C1734C00ABC549 /* en */,
+				6ED9BD4A19C176F800FDBBA4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -378,43 +374,52 @@
 			};
 			name = Release;
 		};
-		6E90016F19C1734C00ABC549 /* Debug */ = {
+		6ED9BD5719C176F800FDBBA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MentalMap.app/MentalMap";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/MentalMapTests/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MentalMap/MentalMap-Prefix.pch";
+				GCC_PREFIX_HEADER = "MentalMapTests/MentalMapTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MentalMapTests/MentalMapTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		6E90017019C1734C00ABC549 /* Release */ = {
+		6ED9BD5819C176F800FDBBA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MentalMap.app/MentalMap";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/MentalMapTests/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MentalMap/MentalMap-Prefix.pch";
+				GCC_PREFIX_HEADER = "MentalMapTests/MentalMapTests-Prefix.pch";
 				INFOPLIST_FILE = "MentalMapTests/MentalMapTests-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -437,12 +442,13 @@
 				6E90016D19C1734C00ABC549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6E90016E19C1734C00ABC549 /* Build configuration list for PBXNativeTarget "MentalMapTests" */ = {
+		6ED9BD5619C176F800FDBBA4 /* Build configuration list for PBXNativeTarget "MentalMapTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E90016F19C1734C00ABC549 /* Debug */,
-				6E90017019C1734C00ABC549 /* Release */,
+				6ED9BD5719C176F800FDBBA4 /* Debug */,
+				6ED9BD5819C176F800FDBBA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
