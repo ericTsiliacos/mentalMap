@@ -1,3 +1,6 @@
-language: objective-c
-xcode_workspace: MentalMap.xcworkspace # path to your xcodeproj folder
-xcode_scheme: MentalMapTests
+nguage: objective-c
+xcode_workspace: MentalMap.xcworkspace # if you're using cocoapods
+# xcode_project: MyAwesomeApp.xcproject #if you're not using cocoapods
+xcode_scheme: MentalMap
+xcode_sdk: iphonesimulator7.1
+script: xcodebuild -workspace MentalMap.xcworkspace -scheme MentalMap -sdk iphonesimulator7.1 -configuration Debug build test
